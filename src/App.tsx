@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Download from "./pages/Download";
 import Features from "./pages/Features";
 import Tools from "./pages/Tools";
-import Research from "./pages/Research";
+
 import Contact from "./pages/Contact";
 import Docs from "./pages/Docs";
 import NotFound from "./pages/NotFound";
@@ -27,7 +27,6 @@ const App = () => (
             <Route path="/download" element={<Download />} />
             <Route path="/features" element={<Features />} />
             <Route path="/tools" element={<Tools />} />
-            <Route path="/research" element={<Research />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/docs" element={<Docs />} />
             <Route path="*" element={<NotFound />} />

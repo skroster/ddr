@@ -14,7 +14,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     { to: "/tools", label: "Tools" },
     { to: "/download", label: "Download" },
     { to: "/docs", label: "Docs" },
-    { to: "/research", label: "Research" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -127,7 +126,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <h4 className="font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link to="/tools" className="text-muted-foreground hover:text-primary transition-colors">Tools</Link></li>
-                <li><Link to="/research" className="text-muted-foreground hover:text-primary transition-colors">Research</Link></li>
                 <li><Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</Link></li>
               </ul>
             </div>
